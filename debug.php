@@ -16,4 +16,4 @@ function  notifyUserOfDriverStatus($name, $age)
 
 }
 
-$status = notifyUserOfDriverStatus('Joh', 17);
+$status = notifyUserOfDriverStatus('John', 17);
