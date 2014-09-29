@@ -10,7 +10,7 @@ function isOfDrivingAge($age)
 function  notifyUserOfDriverStatus($name, $age)
 {
 
-    $message = isOfDrivingAge($age) ? 'You may drive.' : 'You cant drive';
+    $message = isOfDrivingAge($age) ? 'You may drive!.' : 'You cant drive';
 
     return "{$name}: {$message}";
 
